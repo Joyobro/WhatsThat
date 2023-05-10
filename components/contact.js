@@ -3,7 +3,9 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import ProfilePicScreen from './profilePic';
 
-class ContactScreen extends Component {
+//displays info about a single contact
+
+class ContactScreen extends Component { 
   constructor(props) {
     super(props);
   this.state = {
